@@ -1,0 +1,58 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1f1d1e;
+}
+
+.main-card {      
+       
+    transition: all .3s;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.main-card:hover {
+    box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+    background-color: #ff4c4e;    
+}
+
+.main-thumb img {
+    max-width: 70%;
+    max-height: 100%;
+    border-radius: 10px;
+    padding-top: 40px;
+}
+
+.rose {
+    height: 50px;
+    border-radius: 10px;
+    border-color: #1f1d1e;
+    color: #1f1d1e;
+}
+
+
+.rose:hover {
+    background-color: #1f1d1e;
+    border-color: #ff4c4e;
+}  
+
+.zagolovok {
+    text-align: center;
+    color: #ff4c4e;
+}
+
+.table-stat {
+    color: #fff;
+    margin-top: 40px;
+    background-color: #1f1d1e;
+}
+
+tr:hover {
+    background-color: #ff4c4e;
+}
+
+.second-card {      
+    background-color: #ff4c4e; 
+    transition: all .3s;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
